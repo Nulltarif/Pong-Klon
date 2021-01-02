@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_paddle",
-    "path": "sprites/spr_paddle/spr_paddle.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -28,7 +25,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_opponent",
+  "name": "obj_paddle_parent",
   "tags": [],
   "resourceType": "GMObject",
 }
