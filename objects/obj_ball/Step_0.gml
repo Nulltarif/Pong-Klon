@@ -17,18 +17,3 @@ if (y > room_height - 8)
 	vspeed = -vspeed;
 }
 */
-
-//// 2.0. Punkte Zählung und Neustarten des Balls:
-if (x = 792)											// Wenn der Ball an Koordinate X angekommen ist ...
-{
-	obj_score.player_score += 1;						// ... bekommt der Spieler einen Punkt, ...
-	instance_destroy();									// ... der Ball wird zerstört und ...
-	instance_create_depth(400, 240, 1, obj_ball);		// ... wird auf den Koordinaten x = 400, y = 240 neu plaziert.
-}
-
-if (x = 8)
-{
-	obj_score.opponent_score += 1;
-	instance_destroy();
-	instance_create_depth(400, 240, 1, obj_ball);
-}

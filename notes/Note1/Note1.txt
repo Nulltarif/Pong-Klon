@@ -1,2 +1,12 @@
-- obj_paddle_opponent -> step -> braucht noch mehr Erklärungen
-- obj_paddle_player -> braucht noch mehr Erklärungen
+To-Dos:
+
+- Pause nach "Tor" v0.4
+- Spielstand ausgeben v0.5
+- Menü erstellen v0.6
+- Sounds implementieren v0.7
+- optisch verschönern v0.7.x
+- Spiel exportieren v1.0
+
+Optional:
+- Satz System implementieren
+- Multiplayer implementieren
