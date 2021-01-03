@@ -1,9 +1,7 @@
-/// @description Hier Beschreibung einfügen
-
-// 1.0 KI des Gegenspielers
+//// 1.0. KI des Gegenspielers
 var difference;
 
-// 1.1 Nach Oben bewegen
+///  1.1. Nach Oben bewegen
 if (y > obj_ball.y)
 {
 	difference = y - obj_ball.y;
@@ -13,7 +11,7 @@ if (y > obj_ball.y)
 	}
 }
 
-// 1.2 Nach Unten bewegen
+///  1.2. Nach Unten bewegen
 if (y < obj_ball.y)
 {
 	difference = obj_ball.y - y;
@@ -23,5 +21,5 @@ if (y < obj_ball.y)
 	}
 }
 
-// 1.3 Eingrenzung der Y-Koordinate
-y = clamp(y, 64, 416); // Durch die Clamp Variable wird in dieser Funktion die Y-Achse begrenzt.
+//// 2.0 Eingrenzung der Y-Koordinate
+y = clamp(y, 64, 416);													// Durch die Clamp Variable wird in dieser Funktion die Y-Achse begrenzt.

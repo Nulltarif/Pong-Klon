@@ -1,0 +1,2 @@
+- obj_paddle_opponent -> step -> braucht noch mehr Erklärungen
+- obj_paddle_player -> braucht noch mehr Erklärungen
