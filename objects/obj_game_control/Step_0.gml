@@ -1,29 +1,29 @@
 ///// obj_game_control / Step
 ////  1.0. Wann der Punktestand erhöht wird 
-///   1.1. Erhöhung des Punktestands des Spielers
-if (obj_ball.x > 800)
+///   1.1. Erhöhung des Punktestands des Gegners
+if (obj_ball.x > 800)									// Wenn obj_ball auf der X-Achse größer als 800 ist, ...			
 {	
-	player_score += 1;
-	obj_paddle_opponent.x = 768;
+	obj_ball.x = 400;									// ... wird der Ball zurückgesetzt ...
+	obj_ball.y = 240;									
+	obj_ball.hspeed = 0;
+	obj_ball.vspeed = 0;								// ... und die Ballgeschwindigkeit auf 0 gesetzt.
+    obj_paddle_opponent.x = 768;						// Die Paddles werden in die Start Position gebracht ...
 	obj_paddle_opponent.y = 240;
-	if (keyboard_check_pressed(vk_space))
-	{
-		obj_ball.x = 400;
-		obj_ball.y = 240;
-		obj_ball.hspeed = -obj_ball.ball_speed;
-	}
+	obj_paddle_opponent.vspeed = 0;						// ... und deren Geschwindigkeit auf 0 gesetzt.
+	opponent_score += 1;								// Gegner bekommt einen Punkt.
+	alarm[0] = 3 * room_speed							// Alarm 0 wird nach 3 Sekunden aktiviert.
 }
 
-///   1.2. Erhöhung des Punktestands des Gegners
-if (obj_ball.x < 0)
+///   1.2. Erhöhung des Punktestands des Spielers
+if (obj_ball.x < -240)									// Siehe oben
 {	
-	opponent_score += 1;
-	obj_paddle_opponent.x = 768;
+	obj_ball.x = 400;
+	obj_ball.y = 240;
+	obj_ball.hspeed = 0;
+	obj_ball.vspeed = 0;
+    obj_paddle_opponent.x = 768;
 	obj_paddle_opponent.y = 240;
-	if (keyboard_check_pressed(vk_space))
-	{
-		obj_ball.x = 400;
-		obj_ball.y = 240;
-		obj_ball.hspeed = obj_ball.ball_speed;
-	}
+	obj_paddle_opponent.vspeed = 0;
+	player_score += 1;
+	alarm[1] = 3 * room_speed
 }
