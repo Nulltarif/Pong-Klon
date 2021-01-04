@@ -1,16 +1,20 @@
 {
   "resources": [
     {"id":{"name":"Note1","path":"notes/Note1/Note1.yy",},"order":0,},
-    {"id":{"name":"room_menu","path":"rooms/room_menu/room_menu.yy",},"order":1,},
+    {"id":{"name":"fon_menu_text2","path":"fonts/fon_menu_text2/fon_menu_text2.yy",},"order":3,},
+    {"id":{"name":"obj_result","path":"objects/obj_result/obj_result.yy",},"order":7,},
+    {"id":{"name":"room_menu","path":"rooms/room_menu/room_menu.yy",},"order":2,},
     {"id":{"name":"obj_paddle_opponent","path":"objects/obj_paddle_opponent/obj_paddle_opponent.yy",},"order":1,},
     {"id":{"name":"fon_score","path":"fonts/fon_score/fon_score.yy",},"order":0,},
     {"id":{"name":"obj_paddle_parent","path":"objects/obj_paddle_parent/obj_paddle_parent.yy",},"order":3,},
     {"id":{"name":"spr_paddle_opponent","path":"sprites/spr_paddle_opponent/spr_paddle_opponent.yy",},"order":2,},
     {"id":{"name":"obj_ball","path":"objects/obj_ball/obj_ball.yy",},"order":2,},
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},"order":6,},
+    {"id":{"name":"room_result","path":"rooms/room_result/room_result.yy",},"order":1,},
     {"id":{"name":"spr_paddle_player","path":"sprites/spr_paddle_player/spr_paddle_player.yy",},"order":0,},
     {"id":{"name":"spr_ball","path":"sprites/spr_ball/spr_ball.yy",},"order":1,},
     {"id":{"name":"fon_menu_text","path":"fonts/fon_menu_text/fon_menu_text.yy",},"order":2,},
+    {"id":{"name":"fon_result","path":"fonts/fon_result/fon_result.yy",},"order":4,},
     {"id":{"name":"obj_game_gui","path":"objects/obj_game_gui/obj_game_gui.yy",},"order":5,},
     {"id":{"name":"fon_menu_header","path":"fonts/fon_menu_header/fon_menu_header.yy",},"order":1,},
     {"id":{"name":"obj_paddle_player","path":"objects/obj_paddle_player/obj_paddle_player.yy",},"order":0,},
@@ -33,6 +37,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"room_menu","path":"rooms/room_menu/room_menu.yy",},},
     {"roomId":{"name":"room_game","path":"rooms/room_game/room_game.yy",},},
+    {"roomId":{"name":"room_result","path":"rooms/room_result/room_result.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

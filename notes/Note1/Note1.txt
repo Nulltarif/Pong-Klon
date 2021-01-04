@@ -1,8 +1,9 @@
 To-Dos:
-- comments hinzufügen im room_menu
-- Spielende festlegen
-- Sounds implementieren v0.7
-- Spiel exportieren v1.0
+- Spielende darstellen "first to x"
+- Nach punkten, Ball auf Y Achse zufällig starten
+- Sounds implementieren
+- Spielende auf Punktezahl "x" Stellen
+- Spiel exportieren
 
 Optional:
 - Satz System implementieren

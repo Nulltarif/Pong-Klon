@@ -1,5 +1,5 @@
 ///// obj_menu -> Step
-////  1.0. Auswahl des Menü Buttons
+////  1.0. Auswahl des Menü Buttons:
 menu_move = keyboard_check_pressed(vk_down) - keyboard_check_pressed(vk_up);
 
 menu_index += menu_move;
