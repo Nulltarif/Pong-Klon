@@ -10,7 +10,7 @@ if (obj_ball.x > 800)									// Wenn obj_ball auf der X-Achse größer als 800 
     obj_paddle_opponent.x = 768;						// Die Paddles werden in die Start Position gebracht ...
 	obj_paddle_opponent.y = 240;
 	obj_paddle_opponent.vspeed = 0;						// ... und deren Geschwindigkeit auf 0 gesetzt.
-	opponent_score += 1;								// Gegner bekommt einen Punkt.
+	player_score += 1;								// Gegner bekommt einen Punkt.
 	alarm[0] = 3 * room_speed							// Alarm 0 wird nach 3 Sekunden aktiviert.
 }
 
@@ -24,6 +24,6 @@ if (obj_ball.x < -240)									// Siehe oben
     obj_paddle_opponent.x = 768;
 	obj_paddle_opponent.y = 240;
 	obj_paddle_opponent.vspeed = 0;
-	player_score += 1;
+	opponent_score += 1;
 	alarm[1] = 3 * room_speed
 }

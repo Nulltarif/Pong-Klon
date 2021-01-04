@@ -1,16 +1,10 @@
 {
-  "spriteId": {
-    "name": "spr_paddle_opponent",
-    "path": "sprites/spr_paddle_opponent/spr_paddle_opponent.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_paddle_parent",
-    "path": "objects/obj_paddle_parent/obj_paddle_parent.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -24,7 +18,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_paddle_opponent","path":"objects/obj_paddle_opponent/obj_paddle_opponent.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"obj_game_gui","path":"objects/obj_game_gui/obj_game_gui.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,7 +27,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_paddle_opponent",
+  "name": "obj_game_gui",
   "tags": [],
   "resourceType": "GMObject",
 }
