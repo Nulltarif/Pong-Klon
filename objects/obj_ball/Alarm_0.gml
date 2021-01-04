@@ -1,6 +1,6 @@
 ///// obj_ball -> Alarm 0
 ////  1.0. Ball in Bewegung bringen:
-ball_speed = 4;
+ball_speed = 8;
 
 //// 2.0. Zuweisung der Ballrichtung:
 randomize();															// Seed wird zufällig erstellt.

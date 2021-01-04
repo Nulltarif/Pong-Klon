@@ -1,0 +1,5 @@
+To-Dos:
+
+Optional:
+- Satz System implementieren
+- Multiplayer implementieren

@@ -1,5 +1,6 @@
 //// 1.0. Ballkollision:
 ///  1.1. Ballkollision mit den Paddels:
+audio_play_sound(snd_collision_paddle, 1, 0);
 hspeed = -hspeed;														// Wenn der Ball ein paddel berührt, ändert er die Richtung
 
 ///  1.2. Aufprall über dem Mittelpunkt des Paddels

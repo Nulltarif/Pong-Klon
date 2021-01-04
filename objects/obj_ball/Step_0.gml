@@ -1,6 +1,7 @@
 //// 1.0. Ballkollision mit der Decke und dem Boden des Levels:
 if (y < 8 || y > room_height - 8)						// Wenn Y-Punkt des Balls kleiner als 8 ist, oder größer als die Raumhöhe -8 ist, dann ... 
 {
+	audio_play_sound(snd_collision_wall, 1, 0);
 	vspeed = -vspeed;									// ... ändert sich die Flugrichtung des Balls.
 }
 

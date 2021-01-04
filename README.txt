@@ -10,3 +10,4 @@ v0.4.2 - updated scoring system
 v0.4.3 - added README
 v0.5.0 - added GUI scoring system, added menu, updated sprits
 v0.6.0 - added result menu, added game end, gameplay improvments
+v1.0.0 - added sounds, updated GUI, gameplay improvments
